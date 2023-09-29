@@ -1,0 +1,19 @@
+{
+  "name": "unit-test-kata",
+  "version": "1.0.0",
+  "description": "Unit Test Kata examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "unit-testing",
+    "tdd"
+  ],
+  "author": "Daniel Derma",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
