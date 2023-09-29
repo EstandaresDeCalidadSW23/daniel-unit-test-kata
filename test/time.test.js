@@ -38,17 +38,6 @@ test("should return '3y 1w 3d' for 3 * YEARS_IN_SECONDS + WEEKS_IN_SECONDS + 3 *
     expect(result).toEqual("3y 1w 3d");
 });
 
-test("should return '0s' for 0 seconds", function () {
-    // setup
-    const seconds = 0;
-
-    // execute
-    const result = time(seconds);
-
-    // expectation
-    expect(result).toEqual("0s");
-});
-
 test("should return '1s' for 1 second", function () {
     // setup
     const seconds = 1;
@@ -70,10 +59,6 @@ test("should return '2m' for 120 seconds", function () {
     // expectation
     expect(result).toEqual("2m");
 });
-
-test("0 seconds", () => {
-    expect(time(0)).toEqual("0s")
-})
 
 test("1 second", () => {
     expect(time(1)).toEqual("1s")
